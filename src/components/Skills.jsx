@@ -35,9 +35,7 @@ const Skills = () => {
                     </div>
 
                     <div className="skills_container-card">
-                        {/* <div className="skills_container-card-img">
-                        
-                    </div> */}
+
                         <img src="./assets/react.png" alt="html" />
 
                         <h3 className="react-text">REACT</h3>
