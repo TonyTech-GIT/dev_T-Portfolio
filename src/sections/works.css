@@ -1,0 +1,132 @@
+.works {
+  background-color: var(--secondary-color);
+
+  padding: 2em 3em;
+}
+.works_container h1 {
+  text-align: center;
+
+  font-size: 2em;
+}
+
+.works_container .works_container-card-wrapper {
+  margin-top: 1em;
+  gap: 30px;
+}
+.works_container-card {
+  height: 250px;
+  width: 290px;
+
+  border: none;
+  border-radius: 5px;
+
+  perspective: 1000px;
+}
+.works_container-card .works_container-card-inner {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.works_container-card:hover .works_container-card-inner {
+  transform: rotateY(180deg);
+}
+
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-front {
+  background-color: var(--fifth-color);
+
+  border-radius: 10px;
+}
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-back {
+  position: relative;
+
+  background-color: var(--primary-color);
+
+  border-radius: 10px;
+
+  transform: rotateY(180deg);
+}
+
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-front
+  img {
+  width: 100%;
+}
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-front
+  h3 {
+  text-align: center;
+
+  font-size: 1.5em;
+
+  color: #eee;
+}
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-front
+  .guess-img {
+  width: 50%;
+  margin: 2em 4.5em;
+}
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-front
+  .rating-img {
+  margin-block-start: 2.5em;
+}
+
+.works_container-card .works_container-card-inner .rating-text {
+  margin-top: 1em;
+}
+.works_container-card .works_container-card-inner .speakers-text {
+  margin-top: 0.8em;
+}
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-back
+  a {
+  position: absolute;
+
+  left: 35%;
+  top: 40%;
+  padding: 0.5em;
+
+  border: none;
+  border-radius: 2px;
+
+  cursor: pointer;
+
+  background-color: var(--third-color);
+  color: var(--primary-color);
+}
+
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-front,
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* MEDIA QUERIES.. */
+@media (max-width: 578px) {
+  .works_container .works_container-card-wrapper {
+    flex-direction: column;
+
+    margin-inline: 3em;
+  }
+}

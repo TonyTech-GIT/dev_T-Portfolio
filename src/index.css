@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&family=Lato:wght@300&family=Merriweather&family=Montserrat:wght@100;400;900&family=Oswald&family=Overpass:wght@300;400;700&family=Poppins:wght@100;200;300;400&family=Public+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&family=Sacramento&family=Sigmar+One&family=Ubuntu:wght@300&display=swap");
+
+@import url("./sections/header.css");
+@import url("./sections/hero.css");
+@import url("./sections/skills.css");
+@import url("./sections/works.css");
+/* @import url("./sections/footer.css"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #32292f;
+  --secondary-color: #99e1d9;
+  --third-color: #f0f7f4;
+  --fourth-color: #70abaf;
+  --fifth-color: #705d56;
+
+  --gradient-one: linear-gradient(
+    311deg,
+    rgba(153, 225, 217, 1) 33%,
+    rgba(240, 247, 244, 1) 68%
+  );
+  --gradient-two: linear-gradient(
+    311deg,
+    rgba(112, 93, 86, 1) 28%,
+    rgba(112, 171, 175, 1) 67%
+  );
+  --gradient-three: linear-gradient(
+    311deg,
+    rgba(153, 225, 217, 1) 57%,
+    rgba(50, 41, 47, 1) 93%
+  );
+
+  --test-one: yellow;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc_sb {
+  justify-content: space-between;
+}
+.flex-ai_c {
+  align-items: center;
+}
