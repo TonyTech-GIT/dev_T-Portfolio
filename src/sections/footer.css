@@ -1,0 +1,34 @@
+.footer {
+  background: var(--gradient-one);
+
+  height: 200px;
+}
+.footer_container {
+  padding: 2em 2em;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_container-img img {
+  width: 25%;
+}
+.footer_container-contact {
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_container-contact span {
+  align-items: center;
+}
+.footer_container-contact span p {
+  margin-left: 0.5em;
+}
+.footer_container-contact span .icons {
+  font-size: 1.5em;
+}
+
+/* MEDIA QUERIES... */
+@media (max-width: 578px) {
+  .footer_container-img img {
+    width: 45%;
+  }
+}

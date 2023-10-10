@@ -3,7 +3,7 @@ const Works = () => {
     return (
         <section className="works" id="works">
             <div className="works_container">
-                <h1>Works section</h1>
+                <h1>Works</h1>
 
                 <div className="works_container-card-wrapper flex">
                     <div className="works_container-card">

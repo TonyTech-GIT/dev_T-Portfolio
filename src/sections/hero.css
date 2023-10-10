@@ -11,6 +11,9 @@
 }
 .hero_container-img {
   background-color: rgb(238, 238, 238, 0.1);
+  background-image: url("../../assets/person.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 
   border: none;
   border-radius: 2% 39% 40% 2%;
@@ -47,8 +50,11 @@
   align-items: center;
   gap: 20px;
 }
-.cta_container button {
+.cta_container a {
   padding: 0.5em 0.8em;
+
+  background-color: var(--third-color);
+  color: #333;
 
   font-size: 1em;
 
@@ -59,7 +65,7 @@
 
   transition: 0.5s;
 }
-.cta_container button:hover {
+.cta_container a:hover {
   background-color: #333;
   color: #eee;
 

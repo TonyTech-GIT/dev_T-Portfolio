@@ -3,7 +3,7 @@ const Skills = () => {
     return (
         <section className="skills" id="skills">
             <div className="skills_container">
-                <h1>Skills:</h1>
+                <h1>Skills</h1>
 
                 <div className="skills_container-card-wrapper flex">
                     <div className="skills_container-card">
