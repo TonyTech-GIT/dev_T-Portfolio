@@ -82,13 +82,16 @@
     height: 100vh;
     width: 225px;
 
-    top: 5.9em;
+    top: 6.5em;
     /* left: 53%; */
     left: 100%;
 
     position: absolute;
 
-    background: var(--gradient-one);
+    /* background: var(--gradient-one); */
+    background-color: var(--secondary-color);
+
+    /* opacity: 0.9; */
 
     transition: 0.4s;
   }

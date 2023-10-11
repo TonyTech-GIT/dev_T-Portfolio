@@ -1,10 +1,11 @@
 import { MdEmail, MdPhone, MdWhatsapp } from 'react-icons/md'
+import footerLogo from '../../public/assets/DEV_T-2.png'
 const Footer = () => {
     return (
         <section className="footer" id='contact'>
             <div className="footer_container flex">
                 <div className="footer_container-img">
-                    <img src="../../public/assets/DEV_T-2.png" alt="logo" />
+                    <img src={footerLogo} alt="logo" />
                 </div>
                 <div className="footer_container-contact flex">
                     <span className='flex '>

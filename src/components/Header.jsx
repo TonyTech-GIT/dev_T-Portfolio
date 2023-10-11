@@ -1,3 +1,4 @@
+import headerLogo from '../../public/assets/DEV_T-2.png'
 
 const Header = () => {
 
@@ -16,7 +17,7 @@ const Header = () => {
         <section className="header">
             <div className="header_container flex flex-jc_sb flex-ai_c">
                 <div className="header_container-logo">
-                    <img src="../../public/assets/DEV_T-2.png" alt="logo" />
+                    <img src={headerLogo} alt="logo" />
                 </div>
 
                 <div className="header_container-navLinks">
