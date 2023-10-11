@@ -16,7 +16,7 @@ const Header = () => {
         <section className="header">
             <div className="header_container flex flex-jc_sb flex-ai_c">
                 <div className="header_container-logo">
-                    <img src="./assets/DEV_T-2.png" alt="logo" />
+                    <img src="../../public/assets/DEV_T-2.png" alt="logo" />
                 </div>
 
                 <div className="header_container-navLinks">

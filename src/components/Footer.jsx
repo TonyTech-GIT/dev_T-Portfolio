@@ -4,7 +4,7 @@ const Footer = () => {
         <section className="footer" id='contact'>
             <div className="footer_container flex">
                 <div className="footer_container-img">
-                    <img src="../../assets/DEV_T-2.png" alt="logo" />
+                    <img src="../../public/assets/DEV_T-2.png" alt="logo" />
                 </div>
                 <div className="footer_container-contact flex">
                     <span className='flex '>

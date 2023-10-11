@@ -9,7 +9,7 @@ const Works = () => {
                     <div className="works_container-card">
                         <div className="works_container-card-inner">
                             <div className="works_container-card-inner-front">
-                                <img src="../../assets/speaker-1.png" alt="speaker" />
+                                <img src="../../public/assets/speaker-1.png" alt="speaker" />
 
                                 <h3 className="speakers-text">Speakers Landing Page</h3>
                             </div>
@@ -23,7 +23,7 @@ const Works = () => {
                     <div className="works_container-card">
                         <div className="works_container-card-inner">
                             <div className="works_container-card-inner-front">
-                                <img src="../../assets/space-travel-1.png" alt="space-travel" />
+                                <img src="../../public/assets/space-travel-1.png" alt="space-travel" />
 
                                 <h3>Space-Travel Website</h3>
                             </div>
@@ -36,7 +36,7 @@ const Works = () => {
                     <div className="works_container-card">
                         <div className="works_container-card-inner">
                             <div className="works_container-card-inner-front">
-                                <img className="rating-img" src="../../assets/rating-1.png" alt="feedback-rating" />
+                                <img className="rating-img" src="../../public/assets/rating-1.png" alt="feedback-rating" />
 
                                 <h3 className="rating-text">Interactive Feedback-Rating</h3>
                             </div>
@@ -49,7 +49,7 @@ const Works = () => {
                     <div className="works_container-card">
                         <div className="works_container-card-inner">
                             <div className="works_container-card-inner-front">
-                                <img className="guess-img" src="../../assets/num-guess-1.png" alt="num-guess" />
+                                <img className="guess-img" src="../../public/assets/num-guess-1.png" alt="num-guess" />
 
                                 <h3>Guess the Number Game</h3>
                             </div>

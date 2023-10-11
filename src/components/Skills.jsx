@@ -8,7 +8,7 @@ const Skills = () => {
                 <div className="skills_container-card-wrapper flex">
                     <div className="skills_container-card">
 
-                        <img src="./assets/html.png" alt="html" />
+                        <img src="../../public/assets/html.png" alt="html" />
 
                         <h3>HTML</h3>
 
@@ -16,7 +16,7 @@ const Skills = () => {
 
                     <div className="skills_container-card">
 
-                        <img src="./assets/css1.png" alt="css" />
+                        <img src="../../public/assets/css1.png" alt="css" />
 
                         <h3>CSS</h3>
 
@@ -26,7 +26,7 @@ const Skills = () => {
                         {/* <div className="skills_container-card-img">
                         
                     </div> */}
-                        <img src="./assets/js.png" alt="html" />
+                        <img src="../../public/assets/js.png" alt="js" />
 
                         <h3>JS</h3>
 
@@ -34,7 +34,7 @@ const Skills = () => {
 
                     <div className="skills_container-card">
 
-                        <img src="./assets/react.png" alt="html" />
+                        <img src="../../public/assets/react.png" alt="react" />
 
                         <h3 className="react-text">REACT</h3>
 

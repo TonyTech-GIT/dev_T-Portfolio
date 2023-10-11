@@ -11,7 +11,7 @@
 }
 .hero_container-img {
   background-color: rgb(238, 238, 238, 0.1);
-  background-image: url("../../assets/person.jpg");
+  background-image: url("../../public/assets/person.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
