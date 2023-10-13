@@ -82,16 +82,23 @@
     width: 300px;
   }
   .hero_container-text {
-    width: 80%;
+    width: 100%;
 
     margin-top: 1.5em;
 
     text-align: center;
   }
   .hero_container-text h1 {
-    width: 100%;
+    position: relative;
+    right: 1.3em;
 
-    font-size: 1.5em;
+    width: 120%;
+
+    font-size: 1.4em;
+
+    background: none;
+    background-clip: text;
+    -webkit-text-fill-color: #333;
   }
   .hero_container-text p {
     margin-block: 1em;

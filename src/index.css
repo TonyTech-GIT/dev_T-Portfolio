@@ -62,3 +62,9 @@ li {
 .flex-ai_c {
   align-items: center;
 }
+
+@media (max-width: 578px) {
+  body {
+    overflow-x: hidden;
+  }
+}

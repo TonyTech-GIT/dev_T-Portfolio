@@ -5,17 +5,23 @@ const Header = () => {
     const handleToggle = () => {
         const menuOpen = document.querySelector("#menuToggle")
         const overlay = document.getElementById("menuOverlay")
+        const headerContainer = document.getElementById('header-container')
 
         if (menuOpen.classList.toggle("show") === true) {
             overlay.style.left = "53%"
+            headerContainer.style.overflowX = 'visible'
+            headerContainer.style.overflowY = 'visible'
         } else {
             overlay.style.left = "100%"
+            headerContainer.style.overflowX = 'hidden'
+            headerContainer.style.overflowY = 'hidden'
+
         }
 
     }
     return (
         <section className="header">
-            <div className="header_container flex flex-jc_sb flex-ai_c">
+            <div className="header_container flex flex-jc_sb flex-ai_c" id='header-container'>
                 <div className="header_container-logo">
                     <img src={headerLogo} alt="logo" />
                 </div>

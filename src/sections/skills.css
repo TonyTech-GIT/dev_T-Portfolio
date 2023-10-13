@@ -41,6 +41,9 @@
   text-align: center;
 
   font-size: 2em;
+  font-family: "poppins", sans-serif;
+
+  letter-spacing: 1.5px;
 
   margin-top: 0.5em;
 
@@ -52,15 +55,81 @@
 
 /* MEDIA QUERIES.... */
 @media (max-width: 576px) {
+  .skills_container {
+    padding: 0;
+  }
   .skills_container-card-wrapper {
     flex-direction: column;
   }
-  .skills_container-card img {
-    width: 60%;
-
-    margin: 2em 2.5em 0 3.5em;
-  }
   .skills_container-card {
-    margin: 0 3em;
+    height: 200px;
+    width: 220px;
+
+    margin: 0 auto;
+  }
+  .skills_container-card img {
+    width: 40%;
+
+    /* margin: 2em 2.5em 0 3.5em; */
+  }
+
+  /* HTML IMAGE AND TEXT */
+
+  .skills_container-card .html-img {
+    width: 50%;
+
+    margin: 1em 3.5em 0 3.5em;
+  }
+  .skills_container-card .html-text {
+    position: relative;
+
+    top: 0.75em;
+    left: 0.1em;
+    font-size: 1.5em;
+  }
+
+  /* CSS IMAGE AND TEXT... */
+
+  .skills_container-card .css-img {
+    width: 70%;
+
+    margin: 0em 2em 0 2em;
+  }
+  .skills_container-card .css-text {
+    position: relative;
+
+    bottom: 0.3em;
+    left: 0em;
+    font-size: 1.5em;
+  }
+
+  /* JAVASCRIPT IMAGE AND TEXT */
+
+  .skills_container-card .js-img {
+    width: 50%;
+
+    margin: 0.8em 3.5em 0 3.5em;
+  }
+  .skills_container-card .js-text {
+    position: relative;
+
+    top: 0.75em;
+    left: 0.1em;
+    font-size: 1.5em;
+  }
+
+  /* REACT IMAGE AND TEXT */
+
+  .skills_container-card .react-img {
+    width: 80%;
+
+    margin: 0.5em 1.5em 0em;
+  }
+  .skills_container-card .react-text {
+    position: relative;
+
+    bottom: 1.5em;
+    left: 0.1em;
+    font-size: 1.5em;
   }
 }

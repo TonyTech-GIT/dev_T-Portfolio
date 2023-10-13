@@ -13,9 +13,9 @@ const Works = () => {
                     <div className="works_container-card">
                         <div className="works_container-card-inner">
                             <div className="works_container-card-inner-front">
-                                <img src={speakerOne} alt="speaker" />
+                                <img className='speaker-img' src={speakerOne} alt="speaker" />
 
-                                <h3 className="speakers-text">Speakers Landing Page</h3>
+                                <h3 className="speaker-text">Speakers Landing Page</h3>
                             </div>
                             <div className="works_container-card-inner-back">
                                 <a href="https://devialet-landing-page.netlify.app/">Go to Site</a>
@@ -27,9 +27,9 @@ const Works = () => {
                     <div className="works_container-card">
                         <div className="works_container-card-inner">
                             <div className="works_container-card-inner-front">
-                                <img src={spaceTravel} alt="space-travel" />
+                                <img className="spaceTravel-img" src={spaceTravel} alt="space-travel" />
 
-                                <h3>Space-Travel Website</h3>
+                                <h3 className="spaceTravel-text">Space-Travel Website</h3>
                             </div>
                             <div className="works_container-card-inner-back">
                                 <a href="https://space-travel-project101.netlify.app/">Go to Site</a>
@@ -42,7 +42,7 @@ const Works = () => {
                             <div className="works_container-card-inner-front">
                                 <img className="rating-img" src={rating} alt="feedback-rating" />
 
-                                <h3 className="rating-text">Interactive Feedback-Rating</h3>
+                                <h3 className="rating-text">Feedback-Rating</h3>
                             </div>
                             <div className="works_container-card-inner-back">
                                 <a href="https://rating-component-frnt-mentor.netlify.app/">Go to Site</a>
@@ -53,9 +53,9 @@ const Works = () => {
                     <div className="works_container-card">
                         <div className="works_container-card-inner">
                             <div className="works_container-card-inner-front">
-                                <img className="guess-img" src={numGuess} alt="num-guess" />
+                                <img className="numGuess-img" src={numGuess} alt="num-guess" />
 
-                                <h3>Guess the Number Game</h3>
+                                <h3 className='numGuess-text'>Guess the Number</h3>
                             </div>
                             <div className="works_container-card-inner-back">
                                 <a href="https://demo-number-guess.netlify.app/">Go to Site</a>
