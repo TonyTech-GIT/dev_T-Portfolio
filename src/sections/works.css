@@ -70,10 +70,21 @@
 
   color: #eee;
 }
+
 .works_container-card
   .works_container-card-inner
   .works_container-card-inner-front
-  .guess-img {
+  .spaceTravel-img {
+  width: 70%;
+
+  position: relative;
+  top: 1.5em;
+  left: 2.8em;
+}
+.works_container-card
+  .works_container-card-inner
+  .works_container-card-inner-front
+  .numGuess-img {
   width: 50%;
   margin: 2em 4.5em;
 }
@@ -84,12 +95,23 @@
   margin-block-start: 2.5em;
 }
 
+.works_container-card .works_container-card-inner .spaceTravel-text {
+  position: relative;
+
+  top: 2em;
+}
 .works_container-card .works_container-card-inner .rating-text {
-  margin-top: 1em;
+  position: relative;
+  top: 1.3em;
 }
 .works_container-card .works_container-card-inner .speakers-text {
   margin-top: 0.8em;
 }
+.works_container-card .works_container-card-inner .numGuess-text {
+  position: relative;
+  bottom: 0.5em;
+}
+
 .works_container-card
   .works_container-card-inner
   .works_container-card-inner-back
@@ -127,7 +149,8 @@
   .works {
     background-color: var(--secondary-color);
 
-    padding: 2em 0.5em;
+    /* padding: 2em 0.5em; */
+    padding-inline: 3em;
   }
   .works_container .works_container-card-wrapper {
     flex-direction: column;
@@ -167,8 +190,8 @@
     .works_container-card-inner-front
     .spaceTravel-img {
     width: 70%;
-
-    margin: 1em 1.8em 0 1.8em;
+    position: relative;
+    left: 2.5em;
   }
   .works_container-card
     .works_container-card-inner
@@ -177,7 +200,7 @@
     font-size: 1.3em;
 
     position: relative;
-    top: 1.3em;
+    top: 2em;
   }
 
   /* RATING IMAGE AND TEXT */
