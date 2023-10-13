@@ -106,5 +106,7 @@
 
   .cta_container {
     justify-content: center;
+
+    gap: 50px;
   }
 }

@@ -94,6 +94,8 @@
 
     position: absolute;
 
+    z-index: 999;
+
     /* background: var(--gradient-one); */
     background-color: var(--secondary-color);
 

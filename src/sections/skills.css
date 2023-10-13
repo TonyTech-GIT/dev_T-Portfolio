@@ -60,6 +60,8 @@
   }
   .skills_container-card-wrapper {
     flex-direction: column;
+
+    gap: 40px;
   }
   .skills_container-card {
     height: 200px;

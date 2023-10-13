@@ -133,6 +133,8 @@
     flex-direction: column;
 
     margin-inline: 5.4em;
+
+    gap: 50px;
   }
 
   .works_container-card {
