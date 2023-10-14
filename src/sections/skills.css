@@ -26,11 +26,11 @@
 
   transition: 0.3s;
 }
-.skills_container-card:hover {
+/* .skills_container-card:hover {
   box-shadow: 5px 5px rgb(50, 41, 47, 0.15);
 
   transform: scale(1.02);
-}
+} */
 
 .skills_container-card img {
   width: 70%;
@@ -54,7 +54,7 @@
 }
 
 /* MEDIA QUERIES.... */
-@media (max-width: 576px) {
+@media (max-width: 576px) and (max-width: 767px) {
   .skills_container {
     padding: 0;
   }

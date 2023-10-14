@@ -73,7 +73,7 @@
 }
 
 /* MEDIA QUERIES... */
-@media (max-width: 576px) {
+@media (max-width: 576px) and (max-width: 767px) {
   .hero_container {
     flex-direction: column;
   }

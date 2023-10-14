@@ -27,7 +27,7 @@
 }
 
 /* MEDIA QUERIES... */
-@media (max-width: 578px) {
+@media (max-width: 576px) and (max-width: 767px) {
   .footer_container-img img {
     width: 45%;
   }

@@ -1,4 +1,4 @@
-import { MdEmail, MdPhone, MdWhatsapp } from 'react-icons/md'
+import { MdOutlineEmail, MdPhone, MdWhatsapp } from 'react-icons/md'
 import footerLogo from '../../public/assets/DEV_T-2.png'
 const Footer = () => {
     return (
@@ -12,7 +12,7 @@ const Footer = () => {
                         <MdPhone className='icons' /> <p>08157732519</p>
                     </span>
                     <span className='flex flex_ai-c'>
-                        <MdEmail className='icons' />  <p>devtony007@gmail.com</p>
+                        <MdOutlineEmail className='icons' />  <p>devtony007@gmail.com</p>
                     </span>
                     <span className='flex flex_ai-c'>
                         <MdWhatsapp className='icons' />  <p>08157732519</p>
