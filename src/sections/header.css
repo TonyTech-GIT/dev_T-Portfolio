@@ -87,9 +87,9 @@
   .header_container-overlay {
     display: block;
     height: 260px;
-    width: 270px;
+    width: 185px;
 
-    top: 8.4em;
+    top: 5em;
     left: 100%;
 
     position: absolute;
