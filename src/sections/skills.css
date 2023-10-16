@@ -61,13 +61,17 @@
   .skills_container-card-wrapper {
     flex-direction: column;
 
-    gap: 40px;
+    /* gap: 40px; */
+    gap: 0;
   }
   .skills_container-card {
     height: 200px;
     width: 220px;
 
     margin: 0 auto;
+  }
+  .skills_container-card:not(:last-child) {
+    margin-bottom: 2em;
   }
   .skills_container-card img {
     width: 40%;

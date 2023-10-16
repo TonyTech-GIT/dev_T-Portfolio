@@ -157,7 +157,8 @@
 
     margin-inline: 3.5em;
 
-    gap: 50px;
+    /* gap: 50px; */
+    gap: 0;
   }
 
   .works_container-card {
@@ -165,6 +166,9 @@
     width: 220px;
 
     /* margin-inline: 3em; */
+  }
+  .works_container-card:not(:last-child) {
+    margin-bottom: 2em;
   }
 
   /* SPEAKER IMAGE AND TEXT */
