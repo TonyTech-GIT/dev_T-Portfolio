@@ -150,12 +150,14 @@
     background-color: var(--secondary-color);
 
     /* padding: 2em 0.5em; */
-    padding-inline: 3em;
+  }
+  .works_container {
+    padding: 0;
   }
   .works_container .works_container-card-wrapper {
     flex-direction: column;
 
-    margin-inline: 14em;
+    /* margin-inline: 8.3em; */
 
     gap: 0;
   }
@@ -186,7 +188,7 @@
     font-size: 1.3em;
 
     position: relative;
-    top: 1.3em;
+    top: 1em;
   }
 
   /* SPACE-TRAVEL IMAGE AND TEXT */
