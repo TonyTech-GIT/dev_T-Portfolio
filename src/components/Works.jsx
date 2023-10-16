@@ -29,7 +29,7 @@ const Works = () => {
                             <div className="works_container-card-inner-front">
                                 <img className="spaceTravel-img" src={spaceTravel} alt="space-travel" />
 
-                                <h3 className="spaceTravel-text">Space-Travel Website</h3>
+                                <h3 className="spaceTravel-text">Space-Travel </h3>
                             </div>
                             <div className="works_container-card-inner-back">
                                 <a href="https://space-travel-project101.netlify.app/">Go to Site</a>
