@@ -4,7 +4,7 @@
   height: 200px;
 }
 .footer_container {
-  padding: 2em 2em;
+  padding: 2em 3em 2em 2em;
 
   justify-content: space-between;
   align-items: center;
@@ -28,6 +28,9 @@
 
 /* MEDIA QUERIES... */
 @media (max-width: 576px) and (max-width: 767px) {
+  .footer_container {
+    padding: 2em 0;
+  }
   .footer_container-img img {
     position: relative;
     top: 0.5em;

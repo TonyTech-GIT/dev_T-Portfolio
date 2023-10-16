@@ -66,6 +66,8 @@
     overflow-x: hidden;
 
     overflow-y: hidden;
+
+    padding-inline: 0;
   }
   .header_container-logo img {
     position: relative;
