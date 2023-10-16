@@ -107,6 +107,9 @@
   .cta_container {
     justify-content: center;
 
-    gap: 50px;
+    gap: 0;
+  }
+  .cta_container .know-more {
+    margin-left: 3em;
   }
 }

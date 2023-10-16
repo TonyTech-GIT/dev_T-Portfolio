@@ -155,9 +155,8 @@
   .works_container .works_container-card-wrapper {
     flex-direction: column;
 
-    margin-inline: 3.5em;
+    margin-inline: 8.3em;
 
-    /* gap: 50px; */
     gap: 0;
   }
 
