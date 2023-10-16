@@ -15,7 +15,7 @@ const Works = () => {
                             <div className="works_container-card-inner-front">
                                 <img className='speaker-img' src={speakerOne} alt="speaker" />
 
-                                <h3 className="speaker-text">Speakers Landing Page</h3>
+                                <h3 className="speaker-text">Devialet Landing-Page</h3>
                             </div>
                             <div className="works_container-card-inner-back">
                                 <a href="https://devialet-landing-page.netlify.app/">Go to Site</a>
