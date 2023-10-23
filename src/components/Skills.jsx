@@ -3,6 +3,9 @@ import css from '../../public/assets/css1.png'
 import js from '../../public/assets/js.png'
 import react from '../../public/assets/react.png'
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 const Skills = () => {
     return (
         <section className="skills" id="skills">
@@ -12,7 +15,9 @@ const Skills = () => {
                 <div className="skills_container-card-wrapper flex">
                     <div className="skills_container-card">
 
-                        <img className='html-img' src={html} alt=" html" />
+                        <LazyLoadImage className='html-img' src={html}
+                            effect='blur'
+                            alt=" html" />
 
                         <h3 className="html-text">HTML</h3>
 
@@ -20,7 +25,9 @@ const Skills = () => {
 
                     <div className="skills_container-card">
 
-                        <img className='css-img' src={css} alt="css" />
+                        <LazyLoadImage className='css-img' src={css}
+                            effect='blur'
+                            alt="css" />
 
                         <h3 className="css-text">CSS</h3>
 
@@ -30,7 +37,9 @@ const Skills = () => {
                         {/* <div className="skills_container-card-img">
                         
                     </div> */}
-                        <img className='js-img' src={js} alt="js" />
+                        <LazyLoadImage className='js-img' src={js}
+                            effect='blur'
+                            alt="js" />
 
                         <h3 className="js-text">JAVASCRIPT</h3>
 
@@ -38,7 +47,10 @@ const Skills = () => {
 
                     <div className="skills_container-card">
 
-                        <img className='react-img' src={react} alt="react" />
+                        <LazyLoadImage className='react-img'
+                            src={react}
+                            effect='blur'
+                            alt="react" />
 
                         <h3 className="react-text">REACT</h3>
 

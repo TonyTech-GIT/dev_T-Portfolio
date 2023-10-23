@@ -1,11 +1,19 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Hero = () => {
 
     return (
         <section className="hero">
             <div className="hero_container flex">
-                <div className="hero_container-img">
-                </div>
+                <LazyLoadImage className="hero_container-img"
+                    src="../../public/assets/person.jpg"
+                    effect='blur'
+                    alt='person' />
+                {/* <div className="hero_container-img">
+
+                </div> */}
+
                 <div className="hero_container-text">
                     <h1>Hi, My name is Anthony, i specialize in making websites and webpages amazing and more amazing...</h1>
                     <p>I look forward to working with you.</p>
