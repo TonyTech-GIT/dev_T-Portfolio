@@ -1,13 +1,15 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
+import person from "../../public/assets/person.jpg"
+
 const Hero = () => {
 
     return (
         <section className="hero">
             <div className="hero_container flex">
                 <LazyLoadImage className="hero_container-img"
-                    src="../../public/assets/person.jpg"
+                    src={person}
                     effect='blur'
                     alt='person' />
                 {/* <div className="hero_container-img">
