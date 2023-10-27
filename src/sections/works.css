@@ -162,7 +162,7 @@
     flex-direction: column;
 
     /* margin-inline: 8.3em; */
-    left: 3.3em;
+    /* left: 3.3em; */
 
     gap: 0;
   }
@@ -253,3 +253,8 @@
     top: 1.3em;
   }
 }
+
+/* @media (max-width: 372px) {
+  .works_container .works_container-card-wrapper {
+  }
+} */
