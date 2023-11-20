@@ -26,20 +26,21 @@
   width: 50%;
 }
 .hero_container-text h1 {
-  width: 90%;
+  width: 95%;
 
   font-size: 2em;
   font-family: "montserrat", sans-serif;
+  font-weight: 400;
 
   line-height: 1.5;
 
-  background: -webkit-linear-gradient(45deg, #333, #929090 50%);
+  /* background: -webkit-linear-gradient(45deg, #333, #929090 50%);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 .hero_container-text p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-family: "poppins", sans-serif;
 
   color: #929090;
