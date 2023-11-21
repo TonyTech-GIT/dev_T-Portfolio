@@ -149,7 +149,7 @@
 }
 
 /* MEDIA QUERIES.. */
-@media screen and (max-width: 576px) and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .works {
     background-color: var(--secondary-color);
 
@@ -160,6 +160,7 @@
   }
   .works_container .works_container-card-wrapper {
     flex-wrap: wrap;
+    padding-inline: 0.3em;
   }
 
   .works_container h1 {
