@@ -8,7 +8,7 @@ const Header = () => {
         const headerContainer = document.getElementById('header-container')
 
         if (menuOpen.classList.toggle("show") === true) {
-            overlay.style.left = "53%"
+            overlay.style.left = "56%"
             headerContainer.style.overflowX = 'visible'
             headerContainer.style.overflowY = 'visible'
         } else {
@@ -28,7 +28,7 @@ const Header = () => {
 
                 <div className="header_container-navLinks">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Skills</a></li>
                     <li><a href="#works">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </div>
@@ -36,7 +36,7 @@ const Header = () => {
                 <div className="header_container-overlay" id="menuOverlay">
                     <ul>
                         <li><a className='link' href="#home">Home</a></li>
-                        <li><a className='link' href="#about">About</a></li>
+                        <li><a className='link' href="#about">Skills</a></li>
                         <li><a className='link' href="#works">Works</a></li>
                         <li><a className='link' href="#contact">Contact</a></li>
                     </ul>

@@ -76,18 +76,15 @@
 
     overflow-y: hidden;
 
-    padding-inline: 3em;
+    padding-inline: 1em;
+  }
+
+  .header_container-logo {
+    max-width: 250px;
   }
   .header_container-logo img {
     width: 25%;
   }
-  /* .header_container-logo img {
-    position: relative;
-    top: 0.5em;
-    width: 30%;
-
-    background-size: contain;
-  } */
 
   .header_container-navLinks {
     display: none;
@@ -95,16 +92,16 @@
 
   .header_container-menuBtn {
     display: block;
-    padding-inline-end: 2em;
+    padding-inline-end: 3em;
   }
 
   .header_container-overlay {
     display: block;
     height: 270px;
-    width: 185px;
+    width: 250px;
 
-    top: 5em;
-    left: 100%;
+    top: 7em;
+    /* left: 100%; */
 
     position: absolute;
 

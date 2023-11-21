@@ -152,17 +152,18 @@
 @media screen and (max-width: 576px) and (max-width: 767px) {
   .works {
     background-color: var(--secondary-color);
+
+    padding: 0 3em;
   }
   .works_container {
     padding: 0;
   }
   .works_container .works_container-card-wrapper {
-    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-    margin-inline: 8em;
-    /* left: 3.3em; */
-
-    gap: 0;
+  .works_container h1 {
+    margin-block-end: 1em;
   }
 
   .works_container-card {

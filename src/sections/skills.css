@@ -119,12 +119,13 @@
 /* MEDIA QUERIES.... */
 @media screen and (max-width: 576px) and (max-width: 767px) {
   .skills_container {
-    padding: 0;
+    padding: 2em 3em;
   }
   .skills_container-card-wrapper {
-    flex-direction: column;
-
-    gap: 0;
+    flex-wrap: wrap;
+  }
+  .skills_container h1 {
+    margin-block-end: 1em;
   }
   .skills_container-card {
     height: 200px;

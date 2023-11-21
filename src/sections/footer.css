@@ -30,18 +30,16 @@
 }
 
 /* MEDIA QUERIES... */
-@media (max-width: 576px) and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .footer_container {
-    padding: 2em 3em;
+    padding: 2em 3em 2em 1em;
   }
+
+  .footer_container-img {
+    max-width: 250px;
+  }
+
   .footer_container-img img {
     width: 30%;
   }
-  /* .footer_container-img img {
-    position: relative;
-    top: 0.5em;
-    width: 55%;
-
-    background-size: contain;
-  } */
 }
