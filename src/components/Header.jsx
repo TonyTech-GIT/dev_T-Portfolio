@@ -22,9 +22,11 @@ const Header = () => {
     return (
         <section className="header">
             <div className="header_container flex flex-jc_sb flex-ai_c" id='header-container'>
-                <div className="header_container-logo">
-                    <img src={headerLogo} alt="logo" />
-                </div>
+                {/* <div className="header_container-logo">
+                </div> */}
+
+                <img src={headerLogo} alt="logo" />
+
 
                 <div className="header_container-navLinks">
                     <li><a href="#home">Home</a></li>

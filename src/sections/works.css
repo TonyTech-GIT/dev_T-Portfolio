@@ -148,7 +148,99 @@
   backface-visibility: hidden;
 }
 
-/* MEDIA QUERIES.. */
+/* MEDIA FOR 768PX... */
+
+@media screen and (max-width: 768px) {
+  .works_container {
+    flex-wrap: wrap;
+  }
+
+  .works_container-card {
+    height: 150px;
+    width: 220px;
+  }
+
+  /* SPEAKER IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .speaker-img {
+    width: 90%;
+
+    margin: 0 0.7em 0 0.7em;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .speaker-text {
+    font-size: 1em;
+
+    position: relative;
+    top: 0.5em;
+  }
+
+  /* SPACE-TRAVEL IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .spaceTravel-img {
+    width: 70%;
+    position: relative;
+    left: 1.5em;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .spaceTravel-text {
+    font-size: 1em;
+
+    position: relative;
+    top: 2em;
+  }
+
+  /* RATING IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .rating-img {
+    width: 100%;
+
+    margin: 2em 0em 0 0;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .rating-text {
+    font-size: 1em;
+
+    position: relative;
+    top: 0.5em;
+  }
+
+  /* NUM-GUESS IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .numGuess-img {
+    width: 50%;
+
+    position: relative;
+
+    right: 2em;
+    bottom: 1em;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .numGuess-text {
+    font-size: 1em;
+
+    position: relative;
+    bottom: 2em;
+  }
+}
+
+/* MEDIA QUERIES FOR 576PX  .. */
 @media screen and (max-width: 576px) {
   .works {
     background-color: var(--secondary-color);
@@ -193,7 +285,7 @@
     font-size: 1.3em;
 
     position: relative;
-    top: 0.5em;
+    top: 0.9em;
   }
 
   /* SPACE-TRAVEL IMAGE AND TEXT */
@@ -228,10 +320,10 @@
     .works_container-card-inner
     .works_container-card-inner-front
     .rating-text {
-    font-size: 1.4em;
+    font-size: 1.3em;
 
     position: relative;
-    top: 0.3em;
+    top: 1.3em;
   }
 
   /* NUM-GUESS IMAGE AND TEXT */
@@ -241,7 +333,9 @@
     .numGuess-img {
     width: 50%;
 
-    margin: 1em 3.2em 0 3.2em;
+    right: 1em;
+
+    /* margin: 1em 3.2em 0 3.2em; */
   }
   .works_container-card
     .works_container-card-inner
@@ -250,11 +344,103 @@
     font-size: 1.3em;
 
     position: relative;
-    top: 1.3em;
+    bottom: 1em;
   }
 }
 
-/* @media (max-width: 372px) {
-  .works_container .works_container-card-wrapper {
+/* MEDIA QUERIES FOR 425PX  .. */
+@media screen and (max-width: 425px) {
+  .works_container {
+    /* background-color: lightsalmon; */
+
+    padding-inline: 1.5em;
   }
-} */
+
+  .works_container-card {
+    height: 120px;
+    width: 120px;
+  }
+
+  /* SPEAKER IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .speaker-img {
+    width: 90%;
+
+    position: relative;
+    left: -0.2em;
+    /* margin: 0 0.7em 0 0.7em; */
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .speaker-text {
+    font-size: 1em;
+
+    position: relative;
+    top: 0em;
+  }
+
+  /* SPACE-TRAVEL IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .spaceTravel-img {
+    width: 70%;
+
+    position: relative;
+    left: 1.3em;
+    top: 0.8em;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .spaceTravel-text {
+    font-size: 1.2em;
+
+    position: relative;
+    top: 1.2em;
+  }
+
+  /* RATING IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .rating-img {
+    width: 100%;
+
+    position: relative;
+    left: 0em;
+    top: -1em;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .rating-text {
+    font-size: 1em;
+
+    position: relative;
+    top: 0.4em;
+  }
+
+  /* NUM-GUESS IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .numGuess-img {
+    width: 50%;
+
+    left: -3em;
+    bottom: 1.6em;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .numGuess-text {
+    font-size: 1em;
+
+    position: relative;
+    top: -3.4em;
+  }
+}

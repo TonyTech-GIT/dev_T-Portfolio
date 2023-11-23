@@ -4,9 +4,10 @@ const Footer = () => {
     return (
         <section className="footer" id='contact'>
             <div className="footer_container flex">
-                <div className="footer_container-img">
-                    <img src={footerLogo} alt="logo" />
-                </div>
+                {/* <div className="footer_container-img">
+
+                </div> */}
+                <img src={footerLogo} alt="logo" />
                 <div className="footer_container-contact flex">
                     <span className='flex '>
                         <MdPhone className='icons' /> <p>08157732519</p>

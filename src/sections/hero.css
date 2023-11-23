@@ -1,6 +1,6 @@
-/* .hero {
-  padding: 1em;
-} */
+.hero {
+  background-color: var(--secondary-color);
+}
 .hero_container {
   background-color: var(--secondary-color);
 
@@ -33,11 +33,6 @@
   font-weight: 400;
 
   line-height: 1.5;
-
-  /* background: -webkit-linear-gradient(45deg, #333, #929090 50%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 .hero_container-text p {
   font-size: 1.2em;
@@ -73,7 +68,7 @@
   transform: scale(1.1);
 }
 
-/* MEDIA QUERIES... */
+/* MEDIA QUERIES FOR 576PX... */
 @media (max-width: 576px) and (max-width: 767px) {
   .hero_container {
     flex-direction: column;
@@ -112,5 +107,39 @@
   }
   .cta_container .know-more {
     margin-left: 3em;
+  }
+}
+
+/* MEDIA QUERIES FOR 768PX... */
+@media screen and (max-width: 768px) {
+  .hero_container {
+    /* border: 1px solid yellow; */
+    margin-inline: 3em;
+
+    padding: 1em 0;
+  }
+
+  .hero_container-img {
+    background-color: rgb(238, 238, 238, 0.1);
+    /* background-image: url("../../public/assets/person.jpg"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+
+    border: none;
+    border-radius: 2% 39% 40% 2%;
+    box-shadow: 6px 5px rgba(238, 238, 238, 0.6);
+
+    height: 280px;
+    width: 300px;
+  }
+
+  .hero_container-text h1 {
+    width: 100%;
+
+    font-size: 1.3em;
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+
+    line-height: 1.5;
   }
 }
