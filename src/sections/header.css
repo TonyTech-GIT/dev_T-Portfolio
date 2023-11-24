@@ -13,7 +13,7 @@
 }
 
 .header_container img {
-  width: 30%;
+  width: 8%;
 
   /* position: relative;
   top: 0.4em; */
@@ -94,10 +94,7 @@
     padding-inline: 1em;
   }
 
-  .header_container-logo {
-    max-width: 250px;
-  }
-  .header_container-logo img {
+  .header_container img {
     width: 25%;
   }
 
@@ -115,7 +112,7 @@
     height: 270px;
     width: 250px;
 
-    top: 5em;
+    top: 7em;
     /* left: 100%; */
 
     position: absolute;
@@ -174,6 +171,6 @@
     display: block;
     height: 270px;
     width: 190px;
-    top: 6em;
+    top: 8em;
   }
 }

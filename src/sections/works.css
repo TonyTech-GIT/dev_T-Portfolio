@@ -348,6 +348,14 @@
   }
 }
 
+/* MEDIA QUERIES FOR 576PX  .. */
+@media screen and (max-width: 576px) {
+  .works_container .works_container-card-wrapper {
+    flex-wrap: wrap;
+    padding-inline: 0em;
+  }
+}
+
 /* MEDIA QUERIES FOR 425PX  .. */
 @media screen and (max-width: 425px) {
   .works_container {
