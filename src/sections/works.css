@@ -348,8 +348,8 @@
   }
 }
 
-/* MEDIA QUERIES FOR 576PX  .. */
-@media screen and (max-width: 576px) {
+/* MEDIA QUERIES FOR 568PX  .. */
+@media screen and (max-width: 568px) {
   .works_container .works_container-card-wrapper {
     flex-wrap: wrap;
     padding-inline: 0em;
@@ -359,14 +359,49 @@
 /* MEDIA QUERIES FOR 425PX  .. */
 @media screen and (max-width: 425px) {
   .works_container {
-    /* background-color: lightsalmon; */
+    /* background-color: lightgray; */
 
-    padding-inline: 1.5em;
+    /* padding-inline: 1.5em; */
+  }
+
+  .works_container h1 {
+    margin-block-end: 0;
+  }
+
+  .works_container .works_container-card-wrapper {
+    gap: 0;
+    justify-content: space-between;
+
+    padding-bottom: 1em;
+    padding-inline: 1em;
   }
 
   .works_container-card {
     height: 120px;
     width: 120px;
+  }
+
+  .works_container-card:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-back
+    a {
+    position: absolute;
+
+    left: 25%;
+    top: 40%;
+    padding: 0em;
+
+    border: none;
+    border-radius: 2px;
+
+    cursor: pointer;
+
+    background-color: var(--third-color);
+    color: var(--primary-color);
   }
 
   /* SPEAKER IMAGE AND TEXT */
