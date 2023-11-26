@@ -91,7 +91,7 @@
 
     overflow-y: hidden;
 
-    padding-inline: 1em;
+    padding-inline: 5em;
   }
 
   .header_container img {
@@ -160,7 +160,7 @@
   } */
 
   .header_container {
-    padding-inline: 3em;
+    padding-inline: 0em;
   }
 
   .header_container img {
