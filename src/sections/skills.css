@@ -288,18 +288,24 @@
 
 /* MEDIA FOR 425PX... */
 @media screen and (max-width: 425px) {
-  /* .skills_container {
-    background-color: limegreen;
-  } */
-  /* .skills_container-card-wrapper {
-    background-color: red;
-  } */
+  .skills_container {
+    /* background-color: limegreen; */
+    margin-inline: 3em;
+  }
+  .skills_container-card-wrapper {
+    /* background-color: red; */
+    justify-content: space-between;
+    padding-inline: 1em;
+  }
 
   .skills_container-card {
     height: 100px;
     width: 100px;
 
-    margin: 0 auto;
+    margin: 0;
+  }
+  .skills_container-card:not(:last-child) {
+    margin-bottom: 0em;
   }
 
   /* HTML IMAGE AND TEXT */
