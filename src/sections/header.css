@@ -91,10 +91,11 @@
 
     overflow-y: hidden;
 
-    padding-inline: 5em;
+    padding-inline: 1em;
   }
 
   .header_container img {
+    background-color: red;
     width: 25%;
   }
 
@@ -150,6 +151,14 @@
     color: #eee;
 
     padding-left: 0.5em;
+  }
+}
+
+/* MEDIA QUERIES FOR 568PX... */
+@media screen and (max-width: 568px) {
+  .header_container img {
+    background-color: red;
+    /* width: 25%; */
   }
 }
 
