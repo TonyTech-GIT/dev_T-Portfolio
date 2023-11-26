@@ -305,12 +305,13 @@
     margin: 0;
   }
   .skills_container-card:not(:last-child) {
-    margin-bottom: 0em;
+    margin-bottom: 1em;
   }
 
   /* HTML IMAGE AND TEXT */
 
   .skills_container-card .html-img {
+    display: none;
     width: 50%;
 
     position: relative;
