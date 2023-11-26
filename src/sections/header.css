@@ -113,7 +113,7 @@
     height: 270px;
     width: 250px;
 
-    top: 7em;
+    top: 2em;
     /* left: 100%; */
 
     position: absolute;
@@ -154,19 +154,11 @@
   }
 }
 
-/* MEDIA QUERIES FOR 568PX... */
-@media screen and (max-width: 568px) {
-  .header_container img {
-    /* background-color: red; */
-    width: 25%;
-  }
-}
-
 /* MEDIA QUERIES FOR 425PX... */
 @media screen and (max-width: 425px) {
-  .header {
+  /* .header {
     background-color: brown;
-  }
+  } */
 
   .header_container {
     padding-inline: 0em;
