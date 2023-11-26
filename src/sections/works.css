@@ -487,3 +487,68 @@
     top: -3.4em;
   }
 }
+
+/* MEDIA QUERIES FOR 375PX  .. */
+@media screen and (max-width: 375px) {
+  /* SPEAKER IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .speaker-img {
+    width: 90%;
+
+    position: relative;
+    left: -0.2em;
+    /* margin: 0 0.7em 0 0.7em; */
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .speaker-text {
+    font-size: 0.8em;
+
+    position: relative;
+    top: 0em;
+  }
+
+  /* RATING IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .rating-img {
+    width: 100%;
+
+    position: relative;
+    left: 0em;
+    top: -1em;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .rating-text {
+    font-size: 0.8em;
+
+    position: relative;
+    top: 0.4em;
+  }
+
+  /* NUM-GUESS IMAGE AND TEXT */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .numGuess-img {
+    width: 50%;
+
+    left: -3em;
+    bottom: 1.6em;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .numGuess-text {
+    font-size: 0.8em;
+
+    position: relative;
+    top: -3.4em;
+  }
+}
