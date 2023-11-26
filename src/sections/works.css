@@ -358,11 +358,14 @@
 
 /* MEDIA QUERIES FOR 425PX  .. */
 @media screen and (max-width: 425px) {
-  /* .works_container {
+  .works {
+    padding: 0;
+  }
+  .works_container {
     background-color: lightgray;
 
-    padding-inline: 1.5em;
-  } */
+    margin-inline: 3rem;
+  }
 
   .works_container h1 {
     margin-block-end: 0;
@@ -373,7 +376,7 @@
     justify-content: space-between;
 
     padding-bottom: 1em;
-    padding-inline: 5%;
+    padding-inline: 2rem;
   }
 
   .works_container-card {
