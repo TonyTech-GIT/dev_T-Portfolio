@@ -164,9 +164,9 @@
 
 /* MEDIA QUERIES FOR 425PX... */
 @media screen and (max-width: 425px) {
-  /* .header {
+  .header {
     background-color: brown;
-  } */
+  }
 
   .header_container {
     padding-inline: 0em;

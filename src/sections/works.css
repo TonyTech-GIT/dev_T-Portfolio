@@ -361,7 +361,7 @@
   .works_container {
     background-color: lightgray;
 
-    padding-inline: 1.5em;
+    /* padding-inline: 1.5em; */
   }
 
   .works_container h1 {
