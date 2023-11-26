@@ -290,12 +290,12 @@
 @media screen and (max-width: 425px) {
   .skills_container {
     /* background-color: limegreen; */
-    margin-inline: 3em;
+    margin-inline: 0em;
   }
   .skills_container-card-wrapper {
     /* background-color: red; */
     justify-content: space-between;
-    padding-inline: 3em;
+    padding-inline: 6%;
   }
 
   .skills_container-card {

@@ -113,7 +113,7 @@
     height: 270px;
     width: 250px;
 
-    top: 0;
+    top: 2em;
     /* left: 100%; */
 
     position: absolute;
@@ -172,6 +172,6 @@
     display: block;
     height: 270px;
     width: 190px;
-    top: 8em;
+    top: 10em;
   }
 }
