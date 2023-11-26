@@ -419,10 +419,10 @@
     .works_container-card-inner
     .works_container-card-inner-front
     .speaker-text {
-    font-size: 1em;
+    font-size: 0.8em;
 
     position: relative;
-    top: 0em;
+    top: -1em;
   }
 
   /* SPACE-TRAVEL IMAGE AND TEXT */
@@ -440,7 +440,7 @@
     .works_container-card-inner
     .works_container-card-inner-front
     .spaceTravel-text {
-    font-size: 1.2em;
+    font-size: 1em;
 
     position: relative;
     top: 1.2em;
@@ -464,7 +464,7 @@
     font-size: 1em;
 
     position: relative;
-    top: 0.4em;
+    top: -0.8em;
   }
 
   /* NUM-GUESS IMAGE AND TEXT */
@@ -481,10 +481,10 @@
     .works_container-card-inner
     .works_container-card-inner-front
     .numGuess-text {
-    font-size: 1em;
+    font-size: 0.8em;
 
     position: relative;
-    top: -3.4em;
+    top: -3.8em;
   }
 }
 

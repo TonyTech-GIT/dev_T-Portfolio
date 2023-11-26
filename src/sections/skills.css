@@ -295,7 +295,7 @@
   .skills_container-card-wrapper {
     /* background-color: red; */
     justify-content: space-between;
-    padding-inline: 1em;
+    padding-inline: 3em;
   }
 
   .skills_container-card {
@@ -311,7 +311,6 @@
   /* HTML IMAGE AND TEXT */
 
   .skills_container-card .html-img {
-    display: none;
     width: 50%;
 
     position: relative;
