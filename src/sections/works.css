@@ -376,7 +376,7 @@
     justify-content: space-between;
 
     padding-bottom: 1em;
-    padding-inline: 3rem;
+    padding-inline: 2rem;
   }
 
   .works_container-card {
@@ -394,7 +394,7 @@
     a {
     position: absolute;
 
-    left: 2%;
+    left: 22%;
     top: 40%;
     padding: 0em;
 

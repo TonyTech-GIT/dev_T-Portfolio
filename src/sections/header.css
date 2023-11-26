@@ -165,13 +165,13 @@
   }
 
   .header_container img {
-    width: 35%;
+    width: 34%;
   }
 
   .header_container-overlay {
     display: block;
     height: 270px;
     width: 190px;
-    top: 10em;
+    top: 7em;
   }
 }
