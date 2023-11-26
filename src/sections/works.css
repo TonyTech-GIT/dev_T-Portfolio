@@ -358,11 +358,11 @@
 
 /* MEDIA QUERIES FOR 425PX  .. */
 @media screen and (max-width: 425px) {
-  /* .works_container {
+  .works_container {
     background-color: lightgray;
 
     padding-inline: 1.5em;
-  } */
+  }
 
   .works_container h1 {
     margin-block-end: 0;

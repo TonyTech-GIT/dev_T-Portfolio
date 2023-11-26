@@ -95,8 +95,8 @@
   }
 
   .header_container img {
-    background-color: red;
-    width: 8%;
+    /* background-color: red; */
+    width: 25%;
   }
 
   .header_container-navLinks {
@@ -156,17 +156,9 @@
 
 /* MEDIA QUERIES FOR 568PX... */
 @media screen and (max-width: 568px) {
-  .header_container {
-    overflow-x: hidden;
-
-    overflow-y: hidden;
-
-    padding-inline: 8em;
-  }
-
   .header_container img {
-    background-color: red;
-    width: 8%;
+    /* background-color: red; */
+    width: 25%;
   }
 }
 
