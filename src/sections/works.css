@@ -376,7 +376,7 @@
     justify-content: space-between;
 
     padding-bottom: 1em;
-    padding-inline: 2rem;
+    /* padding-inline: 2rem; */
   }
 
   .works_container-card {

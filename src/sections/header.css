@@ -109,7 +109,7 @@
   }
 
   .header_container-overlay {
-    display: block;
+    display: none;
     height: 270px;
     width: 250px;
 
@@ -169,7 +169,7 @@
   }
 
   .header_container-overlay {
-    display: block;
+    /* display: block; */
     height: 270px;
     width: 190px;
     top: 7em;
