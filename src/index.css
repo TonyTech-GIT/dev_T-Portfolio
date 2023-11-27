@@ -63,8 +63,8 @@ li {
   align-items: center;
 }
 
-@media (max-width: 578px) {
+/* @media (max-width: 578px) {
   body {
     overflow-x: hidden;
   }
-}
+} */

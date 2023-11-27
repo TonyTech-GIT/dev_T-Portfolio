@@ -5,20 +5,20 @@ const Header = () => {
     const handleToggle = () => {
         const menuOpen = document.querySelector("#menuToggle")
         const overlay = document.getElementById("menuOverlay")
-        // const headerContainer = document.getElementById('header-container')
+        const headerContainer = document.getElementById('header-container')
 
         if (menuOpen.classList.toggle("show") === true) {
             overlay.style.left = "56%"
             overlay.style.display = "block"
-            // headerContainer.style.overflowX = 'visible'
-            // headerContainer.style.overflowY = 'visible'
-            // headerContainer.style.display = 'block'
+
+            headerContainer.style.overflowX = 'visible'
+            headerContainer.style.overflowY = 'visible'
+
         } else {
             overlay.style.left = "100%"
             overlay.style.display = "none"
-            // headerContainer.style.overflowX = 'hidden'
-            // headerContainer.style.overflowY = 'hidden'
-            // headerContainer.style.display = 'none'
+            headerContainer.style.overflowX = 'hidden'
+            headerContainer.style.overflowY = 'hidden'
 
         }
 
@@ -40,6 +40,7 @@ const Header = () => {
                 </div>
 
                 <div className="header_container-overlay" id="menuOverlay">
+
                     <ul>
                         <li><a className='link' href="#home">Home</a></li>
                         <li><a className='link' href="#skills">Skills</a></li>
