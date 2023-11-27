@@ -491,6 +491,16 @@
   }
 }
 
+/* MEDIA QUERIES FOR 416PX  .. */
+@media screen and (max-width: 416px) {
+  .works_container .works_container-card-wrapper {
+    gap: 0;
+    justify-content: space-between;
+
+    padding-inline: 2rem;
+  }
+}
+
 /* MEDIA QUERIES FOR 375PX  .. */
 @media screen and (max-width: 375px) {
   /* SPEAKER IMAGE AND TEXT */
