@@ -13,21 +13,22 @@
 }
 
 :root {
-  --primary-color: #32292f;
-  --secondary-color: #99e1d9;
-  --third-color: #f0f7f4;
-  --fourth-color: #70abaf;
+  --primary-color: #1d3557;
+  --secondary-color: #a8dadc;
+  --third-color: #457b9d;
+  --fourth-color: #f1faee;
   --fifth-color: #705d56;
+  --sixth-color: #e63946;
 
   --gradient-one: linear-gradient(
     311deg,
-    rgba(153, 225, 217, 1) 33%,
-    rgba(240, 247, 244, 1) 68%
+    rgba(28, 52, 87, 1) 33%,
+    rgba(168, 218, 220, 1) 68%
   );
   --gradient-two: linear-gradient(
     311deg,
-    rgba(112, 93, 86, 1) 28%,
-    rgba(112, 171, 175, 1) 67%
+    rgba(69, 123, 157, 1) 28%,
+    rgba(168, 218, 220, 1) 67%
   );
   --gradient-three: linear-gradient(
     311deg,
