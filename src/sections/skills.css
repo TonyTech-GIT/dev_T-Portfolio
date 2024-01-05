@@ -128,3 +128,69 @@
     margin: 10px 0; /* Add margin for space between cards */
   }
 }
+
+/* Mobile screens of 320px... */
+@media only screen and (max-width: 320px) {
+  .skills_container {
+    padding: 1em 1.5em; /* Adjusted padding for smaller screens */
+  }
+
+  .skills_container h1 {
+    font-size: 1.5em; /* Decreased font size for smaller screens */
+  }
+
+  .skills_container-card {
+    width: 90%; /* Adjust width to fit the screen */
+    height: 200px; /* Decreased height for better fit on smaller screens */
+    margin: 10px 0; /* Add margin for space between cards */
+  }
+
+  /* Adjust positions and sizes of images and texts for better visibility */
+  .skills_container-card .html-img {
+    width: 40%;
+    left: 3em;
+    top: 1em;
+  }
+
+  .skills_container-card .html-text {
+    top: 1em;
+    left: -0.3em;
+    font-size: 1.2em;
+  }
+
+  .skills_container-card .css-img {
+    width: 60%;
+    left: 1.5em;
+    top: 0.8em;
+  }
+
+  .skills_container-card .css-text {
+    bottom: 0.5em;
+    left: -0.3em;
+    font-size: 1.2em;
+  }
+
+  .skills_container-card .js-img {
+    width: 45%;
+    left: 2.5em;
+    top: 1em;
+  }
+
+  .skills_container-card .js-text {
+    top: 0.8em;
+    left: -0.3em;
+    font-size: 1.2em;
+  }
+
+  .skills_container-card .react-img {
+    width: 75%;
+    left: 0.5em;
+    top: 0.8em;
+  }
+
+  .skills_container-card .react-text {
+    bottom: 0.8em;
+    left: 0.1em;
+    font-size: 1.2em;
+  }
+}

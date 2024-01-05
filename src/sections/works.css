@@ -250,3 +250,96 @@
     top: 35%;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .works_container {
+    padding: 1em; /* Adjusted padding for smaller screens */
+  }
+
+  .works_container h1 {
+    font-size: 1.2em; /* Decreased font size for smaller screens */
+  }
+
+  .works_container .works_container-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Reduced gap between cards for smaller screens */
+    margin-top: 0.5em; /* Adjusted margin for smaller screens */
+  }
+
+  .works_container-card {
+    width: 90%; /* Adjusted card width to fit the screen */
+    max-width: 280px; /* Limit max-width for better fit */
+    height: 180px; /* Decreased height for smaller screens */
+  }
+
+  .works_container-card .works_container-card-inner {
+    height: 140px; /* Adjusted inner card height for smaller screens */
+  }
+
+  /* Adjusted positions and sizes of images and texts for better visibility */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .speaker-img,
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .spaceTravel-img {
+    width: 50%; /* Adjusted image width */
+    top: 0.8em; /* Adjusted position */
+    left: 3em; /* Adjusted position */
+  }
+
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .numGuess-img {
+    width: 30%; /* Adjusted image width */
+    left: 3.8rem; /* Adjusted position */
+    /* bottom: 1rem; */
+  }
+
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .rating-img {
+    margin-top: 1em; /* Adjusted margin-top */
+    left: 1.8rem; /* Adjusted position */
+  }
+
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .spaceTravel-text,
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .rating-text {
+    top: 0.6em; /* Adjusted position */
+  }
+
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .speakers-text {
+    margin-top: 0.3em; /* Adjusted margin-top */
+
+    position: relative;
+
+    top: 3rem;
+  }
+
+  .works_container-card .works_container-card-inner .numGuess-text {
+    bottom: 0.1em; /* Adjusted position */
+  }
+
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-back
+    a {
+    left: 25%; /* Adjusted position */
+    top: 30%; /* Adjusted position */
+  }
+}

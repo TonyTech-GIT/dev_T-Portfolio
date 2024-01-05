@@ -20,12 +20,16 @@
 .header_container-navLinks {
   display: flex;
   align-items: center;
-  gap: 20px;
+  /* gap: 20px; */
 }
 .header_container-navLinks li {
   font-size: 20px;
   font-family: "poppins", sans-serif;
 }
+.header_container-navLinks li:not(:last-child) {
+  margin-right: 1rem;
+}
+
 .header_container-navLinks li a {
   color: var(--fourth-color);
 
@@ -103,6 +107,27 @@
     display: block;
     opacity: 1;
     pointer-events: auto;
+  }
+
+  .show .div1,
+  .show .div2,
+  .show .div3 {
+    background-color: #fff; /* Change color for better visibility */
+  }
+}
+
+/* Mobile screens of 320px... */
+@media only screen and (max-width: 320px) {
+  .header_container {
+    padding-inline: 0em; /* Adjusted padding for smaller screens */
+  }
+
+  .header_container img {
+    width: 20%; /* Increased image size for better visibility */
+  }
+
+  .header_container-navLinks li {
+    font-size: 14px; /* Decreased font size for smaller screens */
   }
 
   .show .div1,
