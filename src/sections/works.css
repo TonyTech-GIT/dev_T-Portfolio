@@ -151,6 +151,108 @@
   backface-visibility: hidden;
 }
 
+/* HIGHER SCREEN RESOLUTIONS... */
+/* Higher screen resolutions of 2560px */
+@media only screen and (min-width: 2560px) {
+  .works_container {
+    padding: 2em 10em; /* Adjust padding for wider screens */
+  }
+
+  .works_container h1 {
+    font-size: 2.5em; /* Increase font size for larger screens */
+  }
+
+  .works_container .works_container-card-wrapper {
+    margin-top: 2em; /* Adjust margin top for better spacing */
+    gap: 40px; /* Increased gap between cards */
+  }
+
+  .works_container-card-wrapper {
+    margin-top: 1em;
+    gap: 20px;
+    display: flex;
+    justify-content: center; /* Horizontally center items */
+    align-items: center; /* Vertically center items */
+    flex-wrap: wrap; /* Ensure proper wrapping of items */
+  }
+
+  .works_container-card {
+    width: 500px; /* Adjust card width for larger screens */
+    height: 280px; /* Adjust card height for larger screens */
+  }
+
+  .works_container-card .works_container-card-inner {
+    height: 100%; /* Ensure inner card fills the card height */
+  }
+
+  /* Adjust positions and sizes of images and texts for better visibility */
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .speaker-img {
+    width: 70%;
+
+    position: relative;
+    left: 4rem;
+  }
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .spaceTravel-img {
+    width: 50%; /* Adjusted image width */
+    top: 1.5em; /* Adjusted position */
+    left: 8em; /* Adjusted position */
+  }
+
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .numGuess-img {
+    width: 40%; /* Adjusted image width */
+    margin: 2em 4.5em; /* Adjusted margin */
+
+    position: relative;
+    left: 4rem;
+    bottom: 1rem;
+  }
+
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-front
+    .rating-img {
+    margin-top: 2.5em; /* Adjusted margin-top */
+
+    position: relative;
+    width: 80%;
+    left: 3rem;
+    bottom: 1rem;
+  }
+
+  .works_container-card .works_container-card-inner .spaceTravel-text {
+    top: 2em; /* Adjusted position */
+  }
+
+  .works_container-card .works_container-card-inner .rating-text {
+    top: 0.8em; /* Adjusted position */
+  }
+
+  .works_container-card .works_container-card-inner .speakers-text {
+    margin-top: 0.8em; /* Adjusted margin-top */
+  }
+
+  .works_container-card .works_container-card-inner .numGuess-text {
+    bottom: 1.2em; /* Adjusted position */
+  }
+
+  .works_container-card
+    .works_container-card-inner
+    .works_container-card-inner-back
+    a {
+    left: 35%; /* Adjusted position */
+    top: 40%; /* Adjusted position */
+  }
+}
+
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
   .works_container {

@@ -70,6 +70,32 @@
   transform: translate(0, -5px) rotate(-45deg);
 }
 
+/* Media query for higher screen resolutions of 2560px */
+@media screen and (min-width: 2560px) {
+  .header_container {
+    padding-inline: 5em 11rem; /* Adjusted padding for wider screens */
+  }
+
+  .header_container img {
+    width: 6%; /* Decreased image size for larger screens */
+  }
+
+  .header_container-navLinks li {
+    font-size: 24px; /* Increased font size for larger screens */
+  }
+
+  .header_container-menuBtn div {
+    height: 4px; /* Adjusted height for the menu button lines */
+    width: 30px; /* Adjusted width for the menu button lines */
+  }
+
+  .show .div1,
+  .show .div2,
+  .show .div3 {
+    background-color: #fff; /* Change color for better visibility */
+  }
+}
+
 /* Responsive CSS for mobile devices */
 
 @media only screen and (max-width: 767px) {
@@ -119,7 +145,7 @@
 /* Mobile screens of 320px... */
 @media only screen and (max-width: 320px) {
   .header_container {
-    padding-inline: 0em; /* Adjusted padding for smaller screens */
+    padding-inline: 0.5em; /* Adjusted padding for smaller screens */
   }
 
   .header_container img {

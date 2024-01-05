@@ -63,11 +63,38 @@
 
   transition: 0.2s;
 }
-.cta_container a:hover {
-  background-color: #333;
-  color: #eee;
 
-  transform: scale(1.1);
+@media (hover: hover) {
+  .cta_container a:hover {
+    background-color: #333;
+    color: #eee;
+    transform: scale(1.1);
+  }
+}
+
+/* Media query for higher screen resolutions of 2560px */
+@media screen and (min-width: 2560px) {
+  .hero_container {
+    padding: 2em 5em; /* Adjusted padding for wider screens */
+  }
+
+  .hero_container-img {
+    height: 400px; /* Adjusted image height for larger screens */
+    width: 450px; /* Adjusted image width for larger screens */
+  }
+
+  .hero_container-text h1 {
+    font-size: 2.5em; /* Increased font size for larger screens */
+  }
+
+  .hero_container-text p {
+    font-size: 1.5em; /* Increased font size for larger screens */
+  }
+
+  .cta_container a {
+    padding: 1em 1.5em; /* Adjusted padding for larger screens */
+    font-size: 1.2em; /* Increased font size for larger screens */
+  }
 }
 
 /* MEDIA QUERIES FOR 768PX... */

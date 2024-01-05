@@ -1,4 +1,4 @@
-import headerLogo from '../../public/assets/DEV_T-2.png'
+import headerLogo from '../../public/assets/dev-t_logo.png'
 
 const Header = () => {
 

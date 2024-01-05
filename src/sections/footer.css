@@ -27,7 +27,30 @@
 .footer_container-contact span .icons {
   font-size: 1.5em;
 
-  color: var(--third-color);
+  color: var(--fourth-color);
+}
+
+/* Media query for higher screen resolutions of 2560px */
+@media screen and (min-width: 2560px) {
+  .footer_container {
+    padding: 4em 8em; /* Adjusted padding for wider screens */
+  }
+
+  .footer_container img {
+    width: 5%; /* Decreased image size for larger screens */
+  }
+
+  .footer_container-contact {
+    gap: 20px; /* Increased gap between contact items */
+  }
+
+  .footer_container-contact span {
+    margin-bottom: 1em; /* Adjusted margin between contact spans */
+  }
+
+  .footer_container-contact span .icons {
+    font-size: 2em; /* Increased icon size for larger screens */
+  }
 }
 
 /* Media query for mobile devices */
@@ -44,5 +67,30 @@
   .footer_container img {
     width: 15%;
     margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer_container {
+    padding: 1em; /* Adjusted padding for smaller screens */
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer_container img {
+    width: 20%; /* Increased image width for better visibility */
+    margin-bottom: 1.5em; /* Adjusted margin bottom */
+  }
+
+  .footer_container-contact span {
+    margin-bottom: 0.5em; /* Adjusted margin bottom for contact spans */
+  }
+
+  .footer_container-contact span p {
+    margin-left: 0; /* Reset margin left */
+  }
+
+  .footer_container-contact span .icons {
+    font-size: 1.2em; /* Reduced icon size for better fit */
   }
 }

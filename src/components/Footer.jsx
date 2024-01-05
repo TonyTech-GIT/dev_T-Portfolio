@@ -1,5 +1,5 @@
 import { MdOutlineEmail, MdPhone, MdWhatsapp } from 'react-icons/md'
-import footerLogo from '../../public/assets/DEV_T-2.png'
+import footerLogo from '../../public/assets/dev-t_logo.png'
 const Footer = () => {
     return (
         <section className="footer" id='contact'>

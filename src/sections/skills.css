@@ -115,6 +115,65 @@
   font-size: 1.5em;
 }
 
+/* Higher screen resolutions of 2560px */
+@media only screen and (min-width: 2560px) {
+  .skills_container-card-wrapper {
+    margin-top: 1em;
+    gap: 20px;
+    display: flex;
+    justify-content: center; /* Horizontally center items */
+    align-items: center; /* Vertically center items */
+    flex-wrap: wrap; /* Ensure proper wrapping of items */
+  }
+  .skills_container {
+    padding: 1em 8em; /* Adjust padding for wider screens */
+  }
+
+  .skills_container h1 {
+    font-size: 3em; /* Increase font size for larger screens */
+  }
+
+  .skills_container-card {
+    /* Make adjustments to the card size or layout for larger screens */
+    width: 500px;
+    height: 320px;
+  }
+
+  /* Adjust positions and sizes of images and texts for better visibility */
+  .skills_container-card .html-img {
+    width: 40%;
+    left: 9em;
+    top: 2em;
+  }
+  .skills_container-card .html-text {
+    top: 3.5rem;
+  }
+
+  .skills_container-card .css-img {
+    width: 55%;
+    left: 7em;
+    bottom: 0em;
+  }
+
+  .skills_container-card .js-img {
+    width: 43%;
+    left: 8em;
+    top: 1.8em;
+  }
+  .skills_container-card .js-text {
+    top: 2.5rem;
+  }
+
+  .skills_container-card .react-img {
+    width: 70%;
+    left: 5em;
+    top: 1.8em;
+  }
+
+  /* Adjust other properties similarly for better display on higher resolutions */
+  /* .css-img, .css-text, .js-img, .js-text, .react-img, .react-text */
+}
+
 /* Add media query for mobile devices */
 @media only screen and (max-width: 768px) {
   .skills_container-card-wrapper {
@@ -126,6 +185,52 @@
   .skills_container-card {
     width: 70%; /* Adjust width to fit the screen */
     margin: 10px 0; /* Add margin for space between cards */
+  }
+}
+
+/* Mobile screens of range 375px to 425px... */
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  /* HTML IMG AND TEXT... */
+  .skills_container-card .html-img {
+    position: relative;
+    left: 3.2rem;
+  }
+  .skills_container-card .html-text {
+    position: relative;
+    left: 0rem;
+  }
+
+  /* CSS IMG AND TEXT... */
+  .skills_container-card .css-img {
+    position: relative;
+    left: 2rem;
+  }
+  .skills_container-card .css-text {
+    position: relative;
+    left: 0rem;
+    top: -0.5rem;
+  }
+
+  /* JAVASCRIPT IMG AND TEXT... */
+  .skills_container-card .js-img {
+    position: relative;
+    left: 3rem;
+  }
+  .skills_container-card .js-text {
+    position: relative;
+    left: 0rem;
+    top: 1.8rem;
+  }
+
+  /* REACT IMG AND TEXT... */
+  .skills_container-card .react-img {
+    position: relative;
+    left: 1rem;
+  }
+  .skills_container-card .react-text {
+    position: relative;
+    left: 0rem;
+    bottom: 1.5rem;
   }
 }
 
