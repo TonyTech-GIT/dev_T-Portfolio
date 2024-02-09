@@ -4,7 +4,7 @@
 .hero_container {
   background-color: var(--primary-color);
 
-  padding: 1em 3em;
+  padding: 8em 3rem 0rem 3em;
 
   justify-content: space-between;
   align-items: center;
@@ -75,7 +75,7 @@
 /* Media query for higher screen resolutions of 2560px */
 @media screen and (min-width: 2560px) {
   .hero_container {
-    padding: 2em 5em; /* Adjusted padding for wider screens */
+    padding: 8em 5rem 0rem 5em; /* Adjusted padding for wider screens */
   }
 
   .hero_container-img {
@@ -102,7 +102,9 @@
   .hero_container {
     margin-inline: 3em;
 
-    padding: 1em 0;
+    margin-top: 4rem;
+
+    padding: 4em 0;
   }
 
   .hero_container-img {

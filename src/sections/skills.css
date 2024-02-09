@@ -174,8 +174,19 @@
   /* .css-img, .css-text, .js-img, .js-text, .react-img, .react-text */
 }
 
-/* Add media query for mobile devices */
+/* For tablet screen sizes... */
 @media only screen and (max-width: 768px) {
+  .skills_container-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin-inline: 1rem;
+  }
+}
+/* Add media query for mobile devices */
+@media only screen and (max-width: 767px) {
   .skills_container-card-wrapper {
     display: flex;
     flex-direction: column;

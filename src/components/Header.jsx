@@ -33,7 +33,7 @@ const Header = () => {
 
 
                 <div className="header_container-navLinks">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#hero">Home</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#works">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -42,7 +42,7 @@ const Header = () => {
                 <div className="header_container-overlay" id="menuOverlay">
 
                     <ul>
-                        <li><a className='link' href="#home">Home</a></li>
+                        <li><a className='link' href="#hero">Home</a></li>
                         <li><a className='link' href="#skills">Skills</a></li>
                         <li><a className='link' href="#works">Works</a></li>
                         <li><a className='link' href="#contact">Contact</a></li>

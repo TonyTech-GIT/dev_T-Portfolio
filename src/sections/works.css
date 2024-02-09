@@ -253,8 +253,18 @@
   }
 }
 
-/* Media query for mobile devices */
+/* For tablets screen sizes... */
 @media only screen and (max-width: 768px) {
+  .works_container .works_container-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
   .works_container {
     padding: 1em;
   }
@@ -348,7 +358,7 @@
     .works_container-card-inner
     .works_container-card-inner-back
     a {
-    left: 30%;
+    left: 35%;
     top: 35%;
   }
 }

@@ -3,12 +3,16 @@
 } */
 
 .header_container {
-  /* background: var(--gradient-one); */
+  background: var(--gradient-two);
 
-  background-color: var(--primary-color);
-  position: relative;
+  /* background-color: var(--primary-color); */
+  /* background-color: #ddd; */
+  position: fixed;
+  z-index: 10;
 
+  width: 100%;
   padding-inline: 3em 8em;
+  padding-block: 1.5rem;
 }
 
 .header_container img {
@@ -74,6 +78,7 @@
 @media screen and (min-width: 2560px) {
   .header_container {
     padding-inline: 5em 11rem; /* Adjusted padding for wider screens */
+    /* background-color: red; */
   }
 
   .header_container img {
@@ -98,9 +103,15 @@
 
 /* Responsive CSS for mobile devices */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .header_container {
-    padding-inline: 1.5em;
+    padding: 1.5em;
+    /* background-color: red; */
+
+    position: fixed;
+    top: 0rem;
+
+    z-index: 10;
   }
 
   .header_container img {

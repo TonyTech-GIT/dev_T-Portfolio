@@ -6,7 +6,7 @@ import person from "../../public/assets/person.jpg"
 const Hero = () => {
 
     return (
-        <section className="hero">
+        <section className="hero" id='hero'>
             <div className="hero_container flex">
                 <LazyLoadImage className="hero_container-img"
                     src={person}
