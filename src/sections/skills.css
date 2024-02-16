@@ -507,6 +507,10 @@
 
 /* Mobile screens of range 375px to 425px... */
 @media only screen and (min-width: 375px) and (max-width: 425px) {
+  .skills_container-subTwo .skills_container-item {
+    margin-top: 1rem;
+  }
+
   /* HTML IMAGE AND TEXT */
   .skills_container-item .html-img {
     width: 8%;
@@ -535,7 +539,7 @@
     width: 14%;
 
     position: relative;
-    right: 1rem;
+    right: 0.8rem;
   }
 
   /* FIGMA IMAGE AND TEXT */
@@ -543,7 +547,7 @@
     width: 10%;
 
     position: relative;
-    left: -0.5rem;
+    left: -0.2rem;
   }
 
   /* Ranges.... */
@@ -616,6 +620,10 @@
     width: 90%; /* Adjust width to fit the screen */
     height: 200px; /* Decreased height for better fit on smaller screens */
     margin: 10px 0; /* Add margin for space between cards */
+  }
+
+  .skills_container-subTwo .skills_container-item {
+    margin-top: 1rem;
   }
 
   /* HTML IMAGE AND TEXT */
@@ -711,53 +719,4 @@
     position: relative;
     left: 0.2rem;
   }
-
-  /* Adjust positions and sizes of images and texts for better visibility */
-  /* .skills_container-card .html-img {
-    width: 40%;
-    left: 3em;
-    top: 1em;
-  }
-
-  .skills_container-card .html-text {
-    top: 1em;
-    left: -0.3em;
-    font-size: 1.2em;
-  }
-
-  .skills_container-card .css-img {
-    width: 60%;
-    left: 1.5em;
-    top: 0.8em;
-  }
-
-  .skills_container-card .css-text {
-    bottom: 0.5em;
-    left: -0.3em;
-    font-size: 1.2em;
-  }
-
-  .skills_container-card .js-img {
-    width: 45%;
-    left: 2.5em;
-    top: 1em;
-  }
-
-  .skills_container-card .js-text {
-    top: 0.8em;
-    left: -0.3em;
-    font-size: 1.2em;
-  }
-
-  .skills_container-card .react-img {
-    width: 75%;
-    left: 0.5em;
-    top: 0.8em;
-  }
-
-  .skills_container-card .react-text {
-    bottom: 0.8em;
-    left: 0.1em;
-    font-size: 1.2em;
-  } */
 }
