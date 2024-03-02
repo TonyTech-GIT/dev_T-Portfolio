@@ -16,128 +16,73 @@
   margin-top: 1em;
   gap: 20px;
 }
-/* .skills_container-card {
-  background: var(--gradient-two);
-
-  height: 250px;
-  width: 300px;
-
-  border: none;
-  border-radius: 5px;
-
-  transition: 0.3s;
-} */
-
-/* .skills_container-item img {
-  width: 40%;
-} */
-/* .skills_container-card h3 {
-  text-align: center;
-
-  font-size: 2em;
-  font-family: "poppins", sans-serif;
-
-  letter-spacing: 1.5px;
-
-  margin-top: 0.5em;
-
-  color: #eee;
-} */
-/* .skills_container-card .react-text {
-  margin-top: 2.8em;
-} */
 
 .skills_container-subOne,
 .skills_container-subTwo {
   flex: 1;
 }
 
+.skills_container-subTwo {
+  margin-left: 1rem;
+}
+
 .skills_container-item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .skills_container-item:not(:last-child) {
   margin-bottom: 1rem;
 }
 
-/* HTML IMAGE AND TEXT */
-.skills_container-item .html-img {
-  width: 8%;
-
-  margin-right: 1rem;
-}
-
-/* CSS IMAGE AND TEXT... */
-
-.skills_container-item .css-img {
+.skills_container-item .icon-img {
   width: 10%;
-
-  position: relative;
-  right: 0.3rem;
 }
-
-/* JAVASCRIPT IMAGE AND TEXT */
-
-.skills_container-item .js-img {
-  width: 8%;
-}
-
-/* REACT IMAGE AND TEXT */
-
-.skills_container-item .react-img {
-  width: 14%;
-
-  position: relative;
-  right: 1rem;
-}
-
-/* FIGMA IMAGE AND TEXT... */
-.skills_container-item .figma-img {
-  width: 10%;
-
-  position: relative;
-  right: 1.5rem;
+.skills_container-item .icon-img img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Ranges.... */
-.skills_container-item input {
-  width: 50%;
-}
-.skills_container-item .html-range {
+
+.outer-range {
   position: relative;
-  left: 0.3rem;
+  width: 100%;
+  height: 13px;
+
+  background-color: #aaa9a9;
+
+  border-radius: 10px;
+
+  margin-left: 1rem;
 }
-.skills_container-item .css-range {
-  position: relative;
-  left: 0.6rem;
+.inner-range {
+  position: absolute;
+  height: 100%;
+  width: 95%;
+
+  border-radius: 10px;
+
+  background-color: #eee;
 }
-.skills_container-item .js-range {
-  position: relative;
-  left: 1.3rem;
+
+.inner-range.js,
+.inner-range.react {
+  width: 80%;
 }
-.skills_container-item .react-range {
-  position: relative;
-  right: 1.1rem;
+
+.inner-range.figma {
+  width: 70%;
 }
 
 /* Texts... */
 .skills_container-item span {
-  color: #eee;
-}
-.skills_container-item .html-text {
-  margin-left: 2rem;
-}
-.skills_container-item .css-text {
-  margin-left: 2.3rem;
-}
-.skills_container-item .js-text {
-  margin-left: 2.9rem;
-}
-.skills_container-item .react-text {
-  margin-left: 0.6rem;
-}
-.skills_container-item .figma-text {
-  margin-left: 1.5rem;
+  color: #ddd;
+
+  font-size: 100%;
+  font-weight: 700;
+
+  margin-left: 1rem;
 }
 
 /* Higher screen resolutions of 2560px */
@@ -158,16 +103,6 @@
     font-size: 3em; /* Increase font size for larger screens */
   }
 
-  .skills_container-card {
-    /* Make adjustments to the card size or layout for larger screens */
-    width: 500px;
-    height: 320px;
-  }
-  .skills_container-subOne,
-  .skills_container-subTwo {
-    flex: 1;
-  }
-
   .skills_container-subTwo {
     display: flex;
     align-items: center;
@@ -179,125 +114,6 @@
   .skills_container-subTwo .skills_container-item {
     width: 100%;
   }
-
-  /* HTML IMAGE AND TEXT */
-  .skills_container-item .html-img {
-    width: 10%;
-
-    margin-right: 1rem;
-  }
-
-  /* CSS IMAGE AND TEXT... */
-
-  .skills_container-item .css-img {
-    width: 13%;
-
-    position: relative;
-    right: 1.2rem;
-  }
-
-  /* JAVASCRIPT IMAGE AND TEXT */
-
-  .skills_container-item .js-img {
-    width: 10%;
-  }
-
-  /* REACT IMAGE AND TEXT */
-
-  .skills_container-item .react-img {
-    width: 18%;
-
-    position: relative;
-    right: 3rem;
-  }
-
-  /* FIGMA IMAGE AND TEXT... */
-  .skills_container-item .figma-img {
-    width: 12%;
-
-    position: relative;
-    right: 1.5rem;
-  }
-
-  /* Ranges.... */
-  .skills_container-item input {
-    width: 100%;
-  }
-  .skills_container-item .html-range {
-    position: relative;
-    left: 0.3rem;
-  }
-  .skills_container-item .css-range {
-    position: relative;
-    left: -0.5rem;
-  }
-  .skills_container-item .js-range {
-    position: relative;
-    left: 1.8rem;
-  }
-  .skills_container-item .react-range {
-    position: relative;
-    right: 3.5rem;
-  }
-  .skills_container-item .figma-range {
-    width: 100%;
-    position: relative;
-    right: 1.1rem;
-  }
-
-  /* Texts... */
-  .skills_container-item span {
-    color: #eee;
-  }
-  .skills_container-item .html-text {
-    margin-left: 2rem;
-  }
-  .skills_container-item .css-text {
-    margin-left: 2.3rem;
-  }
-  .skills_container-item .js-text {
-    margin-left: 2.9rem;
-  }
-  .skills_container-item .react-text {
-    margin-left: 0.6rem;
-  }
-  .skills_container-item .figma-text {
-    margin-left: 1.5rem;
-  }
-
-  /* Adjust positions and sizes of images and texts for better visibility */
-  /* .skills_container-card .html-img {
-    width: 40%;
-    left: 9em;
-    top: 2em;
-  }
-  .skills_container-card .html-text {
-    top: 3.5rem;
-  }
-
-  .skills_container-card .css-img {
-    width: 55%;
-    left: 7em;
-    bottom: 0em;
-  }
-
-  .skills_container-card .js-img {
-    width: 43%;
-    left: 8em;
-    top: 1.8em;
-  }
-  .skills_container-card .js-text {
-    top: 2.5rem;
-  }
-
-  .skills_container-card .react-img {
-    width: 70%;
-    left: 5em;
-    top: 1.8em;
-  } */
-
-  /* Adjust other properties similarly for better display on higher resolutions */
-  /* .css-img, .css-text, .js-img, .js-text, .react-img, .react-text */
 }
 
 /* For tablet screen sizes... */
@@ -315,90 +131,8 @@
     display: flex;
     /* justify-self: start; */
     align-self: flex-start;
-  }
 
-  /* HTML IMAGE AND TEXT */
-  .skills_container-item .html-img {
-    width: 16%;
-
-    margin-right: 1rem;
-  }
-
-  /* CSS IMAGE AND TEXT... */
-
-  .skills_container-item .css-img {
-    width: 20%;
-
-    position: relative;
-    right: 0.3rem;
-  }
-
-  /* JAVASCRIPT IMAGE AND TEXT */
-
-  .skills_container-item .js-img {
-    width: 16%;
-  }
-
-  /* REACT IMAGE AND TEXT */
-
-  .skills_container-item .react-img {
-    width: 28%;
-
-    position: relative;
-    right: 1rem;
-  }
-
-  /* FIGMA IMAGE AND TEXT */
-  .skills_container-item .figma-img {
-    width: 20%;
-
-    position: relative;
-    left: -0.5rem;
-  }
-
-  /* Ranges.... */
-  .skills_container-item input {
-    width: 100%;
-  }
-  .skills_container-item .html-range {
-    position: relative;
-    left: 0rem;
-  }
-  .skills_container-item .css-range {
-    position: relative;
-    left: 0.5rem;
-  }
-  .skills_container-item .js-range {
-    position: relative;
-    left: 1rem;
-  }
-  .skills_container-item .react-range {
-    position: relative;
-    right: 0.8rem;
-  }
-  .skills_container-item .figma-range {
-    position: relative;
-    left: 0.6rem;
-  }
-
-  /* Texts... */
-  .skills_container-item span {
-    color: #eee;
-  }
-  .skills_container-item .html-text {
-    margin-left: 1.5rem;
-  }
-  .skills_container-item .css-text {
-    margin-left: 2rem;
-  }
-  .skills_container-item .js-text {
-    margin-left: 2.5rem;
-  }
-  .skills_container-item .react-text {
-    margin-left: 1rem;
-  }
-  .skills_container-item .figma-text {
-    margin-left: 2rem;
+    margin-left: 0;
   }
 }
 /* Add media query for mobile devices */
@@ -409,202 +143,16 @@
     align-items: center;
   }
 
-  .skills_container-card {
-    width: 70%; /* Adjust width to fit the screen */
-    margin: 10px 0; /* Add margin for space between cards */
-  }
-
   .skills_container-item {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-  /* HTML IMAGE AND TEXT */
-  .skills_container-item .html-img {
-    width: 8%;
-
-    margin-right: 1rem;
-  }
-
-  /* CSS IMAGE AND TEXT... */
-
-  .skills_container-item .css-img {
-    width: 10%;
-
-    position: relative;
-    right: 0.3rem;
-  }
-
-  /* JAVASCRIPT IMAGE AND TEXT */
-
-  .skills_container-item .js-img {
-    width: 8%;
-  }
-
-  /* REACT IMAGE AND TEXT */
-
-  .skills_container-item .react-img {
-    width: 14%;
-
-    position: relative;
-    right: 1rem;
-  }
-
-  /* FIGMA IMAGE AND TEXT */
-  .skills_container-item .figma-img {
-    width: 10%;
-
-    position: relative;
-    left: -0.5rem;
-  }
-
-  /* Ranges.... */
-  .skills_container-item input {
-    width: 50%;
-  }
-  .skills_container-item .html-range {
-    position: relative;
-    left: 0rem;
-  }
-  .skills_container-item .css-range {
-    position: relative;
-    left: 0.5rem;
-  }
-  .skills_container-item .js-range {
-    position: relative;
-    left: 1rem;
-  }
-  .skills_container-item .react-range {
-    position: relative;
-    right: 0.5rem;
-  }
-  .skills_container-item .figma-range {
-    position: relative;
-    left: 0.6rem;
-  }
-
-  /* Texts... */
-  .skills_container-item span {
-    color: #eee;
-  }
-  .skills_container-item .html-text {
-    margin-left: 1.5rem;
-  }
-  .skills_container-item .css-text {
-    margin-left: 2rem;
-  }
-  .skills_container-item .js-text {
-    margin-left: 2.5rem;
-  }
-  .skills_container-item .react-text {
-    margin-left: 1rem;
-  }
-  .skills_container-item .figma-text {
-    margin-left: 2rem;
-  }
 }
 
 /* Mobile screens of range 375px to 425px... */
-@media only screen and (min-width: 375px) and (max-width: 425px) {
-  .skills_container-subTwo .skills_container-item {
-    margin-top: 1rem;
-  }
-
-  /* HTML IMAGE AND TEXT */
-  .skills_container-item .html-img {
-    width: 8%;
-
-    margin-right: 1rem;
-  }
-
-  /* CSS IMAGE AND TEXT... */
-
-  .skills_container-item .css-img {
-    width: 10%;
-
-    position: relative;
-    right: 0.3rem;
-  }
-
-  /* JAVASCRIPT IMAGE AND TEXT */
-
-  .skills_container-item .js-img {
-    width: 8%;
-  }
-
-  /* REACT IMAGE AND TEXT */
-
-  .skills_container-item .react-img {
-    width: 14%;
-
-    position: relative;
-    right: 0.8rem;
-  }
-
-  /* FIGMA IMAGE AND TEXT */
-  .skills_container-item .figma-img {
-    width: 10%;
-
-    position: relative;
-    left: -0.2rem;
-  }
-
-  /* Ranges.... */
-  .skills_container-item input {
-    width: 50%;
-  }
-  .skills_container-item .html-range {
-    position: relative;
-    left: 0rem;
-  }
-  .skills_container-item .css-range {
-    position: relative;
-    left: 0.5rem;
-  }
-  .skills_container-item .js-range {
-    position: relative;
-    left: 1rem;
-  }
-  .skills_container-item .react-range {
-    position: relative;
-    right: 0.3rem;
-  }
-  .skills_container-item .figma-range {
-    position: relative;
-    left: 0.6rem;
-  }
-
-  /* Texts... */
-  .skills_container-item span {
-    color: #eee;
-  }
-  .skills_container-item .html-text {
-    /* margin-left: 1.5rem; */
-    position: relative;
-    left: 0;
-  }
-  .skills_container-item .css-text {
-    /* margin-left: 2rem; */
-    position: relative;
-    left: 0;
-  }
-  .skills_container-item .js-text {
-    /* margin-left: 2.5rem; */
-    position: relative;
-    left: 0;
-  }
-  .skills_container-item .react-text {
-    /* margin-left: 1rem; */
-    position: relative;
-    left: 0.15rem;
-  }
-  .skills_container-item .figma-text {
-    /* margin-left: 2rem; */
-    position: relative;
-    left: 0.1rem;
-  }
-}
+/* @media only screen and (min-width: 375px) and (max-width: 425px) {
+} */
 
 /* Mobile screens of 320px... */
 @media only screen and (max-width: 320px) {
@@ -614,109 +162,5 @@
 
   .skills_container h1 {
     font-size: 1.5em; /* Decreased font size for smaller screens */
-  }
-
-  .skills_container-card {
-    width: 90%; /* Adjust width to fit the screen */
-    height: 200px; /* Decreased height for better fit on smaller screens */
-    margin: 10px 0; /* Add margin for space between cards */
-  }
-
-  .skills_container-subTwo .skills_container-item {
-    margin-top: 1rem;
-  }
-
-  /* HTML IMAGE AND TEXT */
-  .skills_container-item .html-img {
-    width: 8%;
-
-    /* margin-right: 1rem; */
-    position: relative;
-    left: -0.1rem;
-  }
-
-  /* CSS IMAGE AND TEXT... */
-
-  .skills_container-item .css-img {
-    width: 10%;
-
-    position: relative;
-    right: 0.4rem;
-  }
-
-  /* JAVASCRIPT IMAGE AND TEXT */
-
-  .skills_container-item .js-img {
-    width: 8%;
-
-    position: relative;
-    right: 0.1rem;
-  }
-
-  /* REACT IMAGE AND TEXT */
-
-  .skills_container-item .react-img {
-    width: 14%;
-
-    position: relative;
-    right: 0.9rem;
-  }
-
-  /* FIGMA IMAGE AND TEXT... */
-  .skills_container-item .figma-img {
-    width: 10%;
-
-    position: relative;
-    left: -0.4rem;
-  }
-
-  /* Ranges.... */
-  .skills_container-item input {
-    width: 50%;
-  }
-  .skills_container-item .html-range {
-    position: relative;
-    left: 0.3rem;
-  }
-  .skills_container-item .css-range {
-    position: relative;
-    left: 0.9rem;
-  }
-  .skills_container-item .js-range {
-    position: relative;
-    left: 1.3rem;
-  }
-  .skills_container-item .react-range {
-    position: relative;
-    right: -0.1rem;
-  }
-  .skills_container-item .figma-range {
-    position: relative;
-    left: 0.9rem;
-  }
-
-  /* Texts... */
-  .skills_container-item span {
-    color: #eee;
-  }
-  .skills_container-item .html-text {
-    position: relative;
-    left: 0rem;
-  }
-  .skills_container-item .css-text {
-    position: relative;
-    left: 0rem;
-  }
-  .skills_container-item .js-text {
-    position: relative;
-    left: 0rem;
-  }
-  .skills_container-item .react-text {
-    position: relative;
-    left: 0.3rem;
-  }
-  .skills_container-item .figma-text {
-    position: relative;
-    left: 0.2rem;
   }
 }
