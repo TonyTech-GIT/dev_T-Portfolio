@@ -154,7 +154,7 @@
   }
 }
 
-/* Mobile screens of range 375px to 425px... */
+/* Mobile screens of range 375px to 425px... For TECNO POUVOIUR 4(My device) and other related devices.. */
 @media only screen and (min-width: 375px) and (max-width: 425px) {
   .skills_container-subTwo {
     margin-top: 1rem;
