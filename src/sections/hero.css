@@ -13,16 +13,19 @@
 }
 .hero_container-img {
   background-color: rgb(238, 238, 238, 0.1);
-  /* background-image: url("../../public/assets/person.jpg"); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+  background-image: url("../../public/assets/person-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 1px -195px;
 
   border: none;
-  border-radius: 2% 39% 40% 2%;
-  box-shadow: 6px 5px rgba(238, 238, 238, 0.6);
+  border-radius: 50%;
+  box-shadow: 2px 1px 13px rgba(238, 238, 238, 0.6);
 
-  height: 300px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
+
+  object-fit: cover;
 }
 .hero_container-text {
   width: 50%;
@@ -116,14 +119,16 @@
 }
 
 /* Media query for higher screen resolutions of 2560px */
-@media screen and (min-width: 2560px) {
+@media only screen and (min-width: 2560px) {
   .hero_container {
     padding: 8em 5rem 0rem 5em; /* Adjusted padding for wider screens */
   }
 
   .hero_container-img {
-    height: 400px; /* Adjusted image height for larger screens */
-    width: 450px; /* Adjusted image width for larger screens */
+    height: 800px; /* Adjusted image height for larger screens */
+    width: 800px; /* Adjusted image width for larger screens */
+
+    background-position: 0 -380px;
   }
 
   .hero_container-text h1 {
@@ -151,9 +156,9 @@
 }
 
 /* MEDIA QUERIES FOR 768PX... */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .hero_container {
-    margin-inline: 3em;
+    margin-inline: 1em;
 
     margin-top: 4rem;
 
@@ -162,13 +167,14 @@
 
   .hero_container-img {
     background-color: rgb(238, 238, 238, 0.1);
-    /* background-image: url("../../public/assets/person.jpg"); */
+    background-image: url("../../public/assets/person-2.jpg");
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
+    background-position: 0px -140px;
 
     border: none;
-    border-radius: 2% 39% 40% 2%;
-    box-shadow: 6px 5px rgba(238, 238, 238, 0.6);
+    border-radius: 50%;
+    box-shadow: 2px 1px 13 rgba(238, 238, 238, 0.6);
 
     height: 280px;
     width: 300px;
@@ -258,6 +264,12 @@
 }
 
 @media only screen and (min-width: 375px) and (max-width: 425px) {
+  .hero_container {
+    padding: 2rem 0;
+  }
+  .hero_container-img {
+    height: 300px;
+  }
   .hero_container-socials {
     background: var(--gradient-two);
 
@@ -294,6 +306,13 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .hero_container {
+    padding: 1.5rem 0;
+  }
+  .hero_container-img {
+    height: 300px;
+    width: 300px;
+  }
   .hero_container-socials {
     background: var(--gradient-two);
 
